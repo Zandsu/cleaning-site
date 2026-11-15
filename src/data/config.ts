@@ -3,7 +3,7 @@
 //  Меняйте значения здесь — вёрстку трогать не нужно.
 // ============================================================
 
-const B = import.meta.env.BASE_URL.replace(//$/, '');
+const B = import.meta.env.BASE_URL.replace(/\/$/, '');
 
 export const site = {
   brand: '{BRAND}',
